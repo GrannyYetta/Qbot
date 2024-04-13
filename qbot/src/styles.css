@@ -8,29 +8,37 @@ body {
 	font-style: normal;
 }
 
-.krub-regular {
+/* .krub-regular {
 	font-family: "Krub", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	font-size: 20px;
+} */
+
+.roboto-regular {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
 }
 
 df-messenger {
-	--df-messenger-button-titlebar-color: #fff4bc;
-	--df-messenger-button-titlebar-font-color: black;
-}
-
-  font-family: 'Jersey 10', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.krub-regular {
-  font-family: 'Krub', sans-serif;
-  font-weight: 400;
-  font-style: normal;
+	--df-messenger-button-titlebar-color: #663399;
+	--df-messenger-button-titlebar-font-color: white;
 }
 
 .container {
-  margin-top: 300px;
-  margin-left: 50px;
+	margin-top: 100px;
+	margin-left: 60px;
+	margin-right: 30%;
+	width: 50%;
+}
+
+.jamie {
+	color: #663399;
+}
+
+.jamie-logo {
+	width: 200px;
+	margin-left: 30%;
 }
