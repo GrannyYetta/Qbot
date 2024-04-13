@@ -1,8 +1,7 @@
+
 import "./styles.css"
 
 function App() {
- 
-
   return (
     <>
     <div className="header">
@@ -17,12 +16,10 @@ function App() {
         <li>free to use</li>
       </ul>
       </div>
-  
-
-      
-
     </>
   )
+  );
+
 }
 
-export default App
+export default App;
