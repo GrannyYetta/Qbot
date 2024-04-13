@@ -1,4 +1,6 @@
+
 import './styles.css';
+
 
 function App() {
   return (
@@ -13,8 +15,8 @@ function App() {
         <li>safe and anonymous</li>
         <li>free to use</li>
       </ul>
-    </main>
-  );
+      </div>
+    </>
 }
 
 export default App;
