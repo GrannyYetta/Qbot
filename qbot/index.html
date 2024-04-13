@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Jamie Chatbot</title>
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Jersey+20&display=swap");
+		</style>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script type="module" src="/src/main.jsx"></script>
+		<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+		<df-messenger
+			intent="WELCOME"
+			chat-title="Jamie"
+			agent-id="11387a96-72cc-4121-9103-8c07fbcf466e"
+			language-code="en"
+		></df-messenger>
+	</body>
+</html>
