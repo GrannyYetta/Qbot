@@ -1,5 +1,6 @@
 
 import "./styles.css"
+import NavigationBar from "./NavBar";
 
 function App() {
   return (
@@ -16,9 +17,12 @@ function App() {
         <li>free to use</li>
       </ul>
       </div>
+      <div>
+        <NavigationBar/>
+      </div>
     </>
   )
-  );
+;
 
 }
 
